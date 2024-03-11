@@ -1,0 +1,70 @@
+/* Add this CSS to your existing stylesheet or create a new one for ABirthday component */
+
+.birthday-card {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 10px;
+  /* margin: 10px; */
+  margin-right: 100px; /* Adjust this value to control the space between cards */
+  width: 200px;
+  margin-left: 200px;
+  text-align: center;
+  top:0px;
+}
+
+.birthday-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.birthday-card-title {
+  font-size: 18px;
+}
+
+.birthday-card-price {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.birthday-card button {
+  background-color: #486dbd;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.birthday-card button:hover {
+  background-color: #486dbd;
+}
+
+.admin-add {
+  margin-top: 20px;
+  border: 1px solid black;
+  margin: 20%;
+  padding: 20px;
+  text-align: center; /* Center the content inside .admin-add */
+}
+
+.admin-add input {
+  display: block;
+  margin: 5px auto; /* Center the input fields horizontally */
+  padding: 8px;
+  width: 400px;
+  border-radius: 10px;
+
+}
+
+.admin-add button {
+  background-color: #486dbd;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.admin-add button:hover {
+  background-color: #486dbd;
+}

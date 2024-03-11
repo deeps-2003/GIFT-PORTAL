@@ -1,0 +1,57 @@
+.signin-all{
+  background-size: cover;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.signin-container{
+  background-color: rgb(231, 231, 231);
+  height: 90%;
+  width: 40%;
+  margin-left: 10%;
+  padding-top: 2%;
+  margin-top: 4%;
+}
+
+.signin-container h1{
+  text-align: center;
+  padding-top: 15%;
+}
+
+.signin-fields{
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 6%;
+  height: 50vh;
+  text-align: center;
+}
+
+.signin-fields p{
+  text-align: left;
+  margin-left: 17%;
+}
+
+.signin-fields input,
+.signin-fields select { 
+  height: 45px;
+  width: 65%;
+  margin-bottom: 15px; 
+}
+
+.signin-fields button{
+  height: 45px;
+  width: 65%;
+  background-color: rgb(96, 132, 194);
+  border-color: rgb(96, 132, 194);
+  margin-left: 10px;
+}
+.error-message{
+  margin-bottom: -8%;
+  color: red;
+}
+*{
+  font-family: Open sans;
+}

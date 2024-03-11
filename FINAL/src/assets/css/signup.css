@@ -1,0 +1,47 @@
+.register-all{
+    /* background-color: rgb(252, 213, 220); */
+    background-size: cover;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
+.register-container{
+    background-color: white;
+    height: 80%;
+    width: 40%;
+    margin-left: 28%;
+    padding-top: 1%;
+    margin-top: 6%;
+    border-radius: 20px;
+    border:4px solid palevioletred;
+}
+.register-container h1{
+    text-align: center;
+}
+.register-fields{
+    /* background-color: aqua; */
+    width: 80%;
+    margin-left: 10%;
+    /* padding-top: 5%; */
+    height: 50vh;
+    text-align: center;
+}
+.register-fields p{
+    text-align: left;
+    margin-left: 17%;
+}
+.register-fields input{
+    height: 45px;
+    width: 65%;
+}
+.register-fields button{
+    height: 45px;
+    width: 65%;
+    background-color: rgb(96, 132, 194);
+    border-color:rgb(96, 132, 194);
+    /* border-radius: 30px; */
+    /* margin-right: 28%; */
+}

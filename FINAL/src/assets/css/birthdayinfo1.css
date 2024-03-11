@@ -1,0 +1,178 @@
+/* QuantityForm.css */
+.image-container{
+    display: flex;
+    
+}
+.im{
+    width: 40%;
+    margin-left: 20px;
+}
+.quantity-form-container {
+    /* display: flex;  */
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+  }
+  
+  .quantity-input-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    margin-left: 60px;
+    /* margin-top: 2px; */
+  }
+  
+  .quantity-text {
+    margin-right: auto; /* Push the text to the left */
+  }
+  
+  .quantity-input {
+    width: 50px;
+    height: 45px;
+    text-align: center; 
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 10px;
+    
+  }
+  
+  .quantity-button1 {
+    color: #000000;
+    font-size: 23px;
+    border: none;
+    margin-left: 18px;
+    padding: 6px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .quantity-button2 {
+    color: #000000;
+    font-size: 23px;
+    border: none;
+    
+    padding: 6px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .gift-wrap-container,
+  .gift-message-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 16px;
+    margin-left: 35px;
+  }
+  
+  .gift-wrap-button,
+  .gift-message-button {
+    background-color: #3498db;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .gift-wrap-toggle,
+  .gift-message-toggle {
+    margin-left: auto;
+  }
+  
+  .buy-now-button {
+    background-color: #e74c3c;
+    margin-top: 20px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    /* color: #a52222; */
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 110px;
+  }
+
+  a{
+    color: #000000;
+  }
+
+  a:hover{
+    color: #000000;
+  }
+
+  
+  
+  /* Updated styles for the toggle switch */
+  .toggle-switch {
+    margin-left: 8px;
+    position: relative;
+    display: inline-block;
+    width: 45px; /* Adjust the width */
+    height: 25px; /* Adjust the height */
+    margin-right: 12px;
+  }
+  
+  .toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .toggle-switch label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 20px; /* Adjust the border-radius */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-switch label:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 10px; /* Adjust the width of the toggle switch icon */
+    height: 10px; /* Adjust the height of the toggle switch icon */
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
+  .toggle-switch input:checked + label {
+    background-color: #3498db;
+  }
+  
+  .toggle-switch input:checked + label:before {
+    transform: translateX(20px); /* Adjust the translation */
+  }
+
+  .message-fields {
+  margin-top: 20px;
+}
+
+.message-fields label {
+  display: block;
+  margin-top: 10px;
+}
+
+.message-fields input,
+.message-fields textarea {
+  width: 100%;
+  margin-top: 5px;
+  padding: 15px 100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+  

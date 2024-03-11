@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: Open Sans;
+}
+
+body,
+html {
+  width: 100lvw;
+  height: 100lvh;
+  font-family: Open Sans;
+}

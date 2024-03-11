@@ -1,0 +1,56 @@
+
+.about-container {
+  /* position: fixed; */
+    background-color:seashell;
+    padding: 20px 10px;
+    max-width: 160vh;
+    text-align: center;
+    margin-top: 8000px;
+    border:4px solid palevioletred;
+   
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Add some stylish hover effect on links */
+  a {
+    color: #ff6f61;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #333;
+  }
+  
+  /* Add a subtle box shadow to the container */
+  .about-container {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add a border radius to the container */
+  .about-container {
+    border-radius: 60px;
+    margin-left: 170px;
+    margin-top: 100px;
+  }
+  
+  /* Add any other styles for the about page as needed */
+  
